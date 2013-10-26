@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : build.xml
+    Created on : 2013 October 26, 15:17
+    Author     : donatas <donatasmart@gmail.com>
+    Description: Management of external libraries
+-->
+<project name="external-libraries" basedir="." default="update-libs">
+    <!-- Initialize external libraries -->
+    <target name="init" description="Clone external libraries from github (creates 'source-libraries' and 'libraries' folders)">
+        <mkdir dir="./source-libraries" />
+        <mkdir dir="./libraries" />
+        <chmod file="./source-libraries" mode="0755" />
+        <chmod file="./libraries" />
+        <exec command="sh install-repositories.sh" checkreturn="true" passthru="true" />
+        <exec command="sh combine-libraries.sh" checkreturn="true" passthru="true" />
+    </target>
+
+    <!-- Update external libraries -->
+    <target name="update-libs" description="Runs update script for external libraries update">
+        <exec command="sh update-repositories.sh" checkreturn="true" passthru="true" />
+    </target>
+</project>
