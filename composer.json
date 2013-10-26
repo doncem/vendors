@@ -1,0 +1,16 @@
+{
+    "name": "doncem/homepage",
+    "description": "Personal homepage",
+    "minimum-stability": "dev",
+    "require": {
+        "doctrine/collections": "dev-master",
+        "doctrine/inflector": "dev-master",
+        "doctrine/lexer": "dev-master",
+        "doctrine/cache": "dev-master",
+        "doctrine/annotations": "dev-master",
+        "doctrine/orm": "dev-master",
+        "doctrine/common": "2.4.x-dev",
+        "doctrine/dbal": "dev-master",
+        "twig/twig": "dev-master"
+    }
+}

@@ -1,4 +1,4 @@
-vendors
-=======
+Collection of external libraries
+================================
 
-external libs used for different projects
+`composer install`
