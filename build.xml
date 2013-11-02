@@ -11,7 +11,7 @@
         <mkdir dir="./source-libraries" />
         <mkdir dir="./libraries" />
         <chmod file="./source-libraries" mode="0755" />
-        <chmod file="./libraries" />
+        <chmod file="./libraries" mode="0755" />
         <exec command="sh install-repositories.sh" checkreturn="true" passthru="true" />
         <exec command="sh combine-libraries.sh" checkreturn="true" passthru="true" />
     </target>
