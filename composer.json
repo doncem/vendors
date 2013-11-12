@@ -2,6 +2,12 @@
     "name": "doncem/homepage",
     "description": "Personal homepage",
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/linusnorton/xFrame.git"
+        }
+    ],
     "require": {
         "doctrine/collections": "dev-master",
         "doctrine/inflector": "dev-master",
@@ -11,6 +17,7 @@
         "doctrine/orm": "dev-master",
         "doctrine/common": "2.4.x-dev",
         "doctrine/dbal": "dev-master",
-        "twig/twig": "dev-master"
+        "twig/twig": "dev-master",
+        "linusnorton/xframe": "dev-master"
     }
 }
