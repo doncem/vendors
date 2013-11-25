@@ -1,5 +1,6 @@
 git://github.com/jashkenas/backbone.git backbone
 git://github.com/jquery/jquery-color.git jquery-color
 git://github.com/flot/flot.git jquery-flot
+git://github.com/DmitryBaranovskiy/raphael.git raphael
 git://github.com/twbs/bootstrap.git twitter-bootstrap
 git://github.com/jashkenas/underscore.git underscore
