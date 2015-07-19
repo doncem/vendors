@@ -15,8 +15,8 @@
         "doctrine/cache": "dev-master",
         "doctrine/annotations": "dev-master",
         "doctrine/orm": "dev-master",
-        "doctrine/common": "2.4.x-dev",
-        "doctrine/dbal": "dev-master",
+        "doctrine/common": "2.5.x-dev",
+        "doctrine/dbal": "2.5.x-dev",
         "twig/twig": "dev-master",
         "linusnorton/xframe": "dev-master"
     }
